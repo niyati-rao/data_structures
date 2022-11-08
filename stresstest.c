@@ -4,8 +4,8 @@
 #include <stdlib.h>
 
 int main(){
-    float i=0.00000001;
-    float m=0.0000001; //the max val to be reached
+    float i=0.0000000000001;
+    float m=0.000000000001; //the max val to be reached
     int count=0;
 
     for(float sum=0.0;sum<m;sum+=i)
