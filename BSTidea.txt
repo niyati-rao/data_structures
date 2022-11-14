@@ -1,0 +1,9 @@
+//Binary Search Tree (VAGUE IDEA)
+//the condition is the left child is lesser than parent
+//and in the right child is greater than the parent
+struct nodeType{
+    int val;
+    struct nodeType *left;
+    struct nodeType *right;
+};
+typedef struct nodeType * NodeAddress;
