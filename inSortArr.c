@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
     a = createArray(n);
     printf("The Array:\n");
     print(a,n);
-    printf("The Selection Sorted Array:\n");
+    printf("The Insertion Sorted Array:\n");
     insertionSort(a,n);
     print(a,n);
 
